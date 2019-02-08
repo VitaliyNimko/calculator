@@ -7,7 +7,7 @@ function digitsOperPressed(e) {
     display.value += e.target.innerText;
 }
 
-document.querySelector('.clear' button)
+document.querySelector('.clear button')
     .addEventListener('click', function() {
         display.value = '';
     });
